@@ -19,7 +19,7 @@ My Fav Search Engine [DuckDuckGo](https://duckduckgo.com/)
 ```
 $ ./main duckduckgo.com
 
-Title: DuckDuckGo â Privacy, simplifie
+Title: DuckDuckGo a Privacy, simplified.
 ```
 
 dev: [Ahmad](https://github.com/ahmad2smile)
