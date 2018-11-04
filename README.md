@@ -12,4 +12,14 @@ Project is setup with **CMAKE** and depencies are managed with [vcpkg](https://g
 
 2) To get the `title` of the page. run: `./main <url>`
 
+## Example
+
+My Fav Search Engine [DuckDuckGo](https://duckduckgo.com/)
+
+```
+$ ./main duckduckgo.com
+
+Title: DuckDuckGo â Privacy, simplifie
+```
+
 dev: [Ahmad](https://github.com/ahmad2smile)
