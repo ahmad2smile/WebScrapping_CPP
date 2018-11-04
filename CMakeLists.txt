@@ -9,8 +9,12 @@ include(CPack)
 
 
 find_package(CURL REQUIRED)
+find_package(LibXml2 REQUIRED)
 
-add_executable(webscapper_cpp main.cpp)
+add_executable(main main.cpp)
 
-target_link_libraries(webscapper_cpp PRIVATE ${CURL_LIBRARIES})
-target_include_directories(webscapper_cpp PRIVATE ${CURL_INCLUDE_DIRS})
+target_link_libraries(main PRIVATE ${CURL_LIBRARIES})
+target_include_directories(main PRIVATE ${CURL_INCLUDE_DIRS})
+
+target_include_directories(main PRIVATE ${LIBXML2_INCLUDE_DIR})
+target_link_libraries(main PRIVATE ${LIBXML2_LIBRARIES})
